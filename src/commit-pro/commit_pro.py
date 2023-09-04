@@ -14,7 +14,7 @@ class CommitPro(cmd.Cmd):
         super().__init__()
         self.file_suggestions = []
 
-    def complete_ga(self, text, line, begidx, endidx):
+    def complete_add(self, text, line, begidx, endidx):
         """
         Tab completion for 'ga' command (Git add).
         """
